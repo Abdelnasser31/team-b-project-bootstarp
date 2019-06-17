@@ -8,6 +8,23 @@
 }
 
 /* Start styling the upperbar  */
-
+.upper-bar{
+    color: #000;
+    min-height: 56px;
+    font-size: 1.1em;
+    line-height: 40px;
+}
+.upper-bar .nav-item.dropdown{
+    padding-top: 0.4em;
+}
+.upper-bar img{
+    width: 25px;
+    
+}
+.upper-bar a {
+    color: #000;
+    font-weight: bold;
+    
+}
 /* End styling the upperbar  */
 
