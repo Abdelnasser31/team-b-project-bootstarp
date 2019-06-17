@@ -2,9 +2,22 @@
     font-weight: bolder;
     font-size: 30px;
 }
-.services p{
+.services p.headline{
     width: 45%;
     margin: 0 auto;
     line-height: 2em;
     color: #7d7d7d;
+}
+.services .card-title{
+    font-weight: bolder;
+    padding-right: 0;
+    
+}
+.services .card-text{
+    color: #999;
+    font-size: 12px;
+    line-height: 2em;
+    width: 70%;
+    margin-left: 30%;
+    
 }
