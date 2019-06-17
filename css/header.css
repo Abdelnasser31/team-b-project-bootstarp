@@ -43,17 +43,30 @@
     font-size: 0.9em;
     font-weight: bold;
 }
-.navbar-light .btn{
+.home .main-btn, .navbar-light .btn{
     background-color: #FE9A04;
     color: #fff;
     font-size: 0.9em;
     transition: all 0.3s ease-in-out;
 }
-.navbar-light .btn:hover{
+.home .main-btn:hover, .navbar-light .btn:hover{
     background-color:  #fff;
     border: 1px solid #FE9A04;;
     color:#FE9A04;
     font-size: 0.9em
+}
+.header .home{
+    max-width: 50%;
+}
+.home .h1{
+    font-size: 3.4em;
+    font-weight: bolder;
+}
+.header .home p{
+    color: #7d7d7d
+}
+.header .home .btn{
+    border: 1px solid #7d7d7d;
 }
 /* End styling the upperbar  */
 

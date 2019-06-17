@@ -6,3 +6,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+h6 span{
+    
+    border: 1px solid #FE9A04;
+    padding: 4px 8px;
+    font-size: 10px;
+}
+span {
+    color: #FE9A04;
+}
