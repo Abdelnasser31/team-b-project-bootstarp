@@ -15,3 +15,11 @@ h6 span{
 span {
     color: #FE9A04;
 }
+
+
+/* styles for the sponsers  */
+
+.sponsers hr{
+    width: 90%;
+    margin: 0 auto;
+}
