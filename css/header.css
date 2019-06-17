@@ -26,5 +26,9 @@
     font-weight: bold;
     
 }
+.upper-bar a:hover {
+  text-decoration: none;
+    
+}
 /* End styling the upperbar  */
 
