@@ -1,0 +1,10 @@
+.services .h1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.services p{
+    width: 45%;
+    margin: 0 auto;
+    line-height: 2em;
+    color: #7d7d7d;
+}
