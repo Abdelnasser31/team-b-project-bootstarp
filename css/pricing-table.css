@@ -1,3 +1,15 @@
 .pricing-table img{
-    width: 40px;
+    width: 42px;
+}
+
+.pricing-table .card-body .dollar{
+    top: -0.9rem;
+}
+
+.pricing-table .card-body span{
+    color : #000;
+    font-weight: bolder;
+}
+.pricing-table .card-body i{
+    color: #FE9A04;
 }
