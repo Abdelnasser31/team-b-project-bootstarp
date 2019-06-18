@@ -13,3 +13,6 @@
 .pricing-table .card-body i{
     color: #FE9A04;
 }
+.pricing-table .card-body i.dark{
+    color: #000;
+}

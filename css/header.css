@@ -43,13 +43,13 @@
     font-size: 0.9em;
     font-weight: bold;
 }
-.home .main-btn, .navbar-light .btn{
+.main-btn, .navbar-light .btn{
     background-color: #FE9A04;
     color: #fff;
     font-size: 0.9em;
     transition: all 0.3s ease-in-out;
 }
-.home .main-btn:hover, .navbar-light .btn:hover{
+.main-btn:hover, .navbar-light .btn:hover{
     background-color:  #fff;
     border: 1px solid #FE9A04;;
     color:#FE9A04;
@@ -65,7 +65,7 @@
 .header .home p{
     color: #7d7d7d
 }
-.header .home .btn{
+.btn{
     border: 1px solid #7d7d7d;
 }
 
