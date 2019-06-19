@@ -1,5 +1,13 @@
+.pricing-table{
+    background: url('../images/priceTable.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 700px;
+}
+
 .pricing-table img{
     width: 42px;
+    
 }
 
 .pricing-table .card-body .dollar{
