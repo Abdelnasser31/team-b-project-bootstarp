@@ -34,3 +34,13 @@ span {
     min-height: 700px;
 }
 /*  */
+
+.completed-projects {
+    background-image: url('../images/img12.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 700px;
+}
+.completed-projects .card{
+    background-color: rgba(0,0,0,0);
+}
