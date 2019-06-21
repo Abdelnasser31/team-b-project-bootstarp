@@ -2,11 +2,21 @@
 @import 'services.css';
 @import 'pricing-table.css';
 
+/* Declaring fonts */
+@font-face{
+    src: url('../webfonts/Touche\ W03\ Regular.ttf');
+    font-family: "touche-regular";
+}
+@font-face{
+    src: url('../webfonts/touche-w03-bold.ttf');
+    font-family: "touche-bold";
+}
+/* End of Declaring fonts  */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "touche-regular";
 }
 h6 span{
     
