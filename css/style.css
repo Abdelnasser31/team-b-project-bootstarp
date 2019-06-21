@@ -8,7 +8,7 @@
     font-family: "touche-regular";
 }
 @font-face{
-    src: url('../webfonts/touche-w03-bold.ttf');
+    src: url('../webfonts/Touche\ W03\ Bold.ttf');
     font-family: "touche-bold";
 }
 /* End of Declaring fonts  */
@@ -16,7 +16,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "touche-regular";
+    font-family: "touche-bold";
 }
 h6 span{
     
