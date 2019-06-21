@@ -28,10 +28,12 @@
   color: #3d3d3d;
     
 }
+/* End of the upper bar styles */
 .main-navbar.navbar-light{
     background-color: #fff;
     border: 1px solid #d7d7d7;
     box-shadow: 0 1px 15px #d7d7d7;
+    max-height: 60px;
 }
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link:hover{
@@ -45,6 +47,7 @@
     background-color: #FE9A04;
     color: #fff;
     font-size: 0.9em;
+    border: 1px solid #FE9A04;
     transition: all 0.3s ease-in-out;
 }
 .main-btn:hover, .navbar-light .btn:hover{
@@ -63,9 +66,7 @@
 .header .home p{
     color: #7d7d7d
 }
-.btn{
-    border: 1px solid #7d7d7d;
-}
+
 
 /* End styling the upperbar  */
 

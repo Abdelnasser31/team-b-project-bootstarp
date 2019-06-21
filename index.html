@@ -21,7 +21,7 @@
     <!-- start of the header -->
     <header class="header mb-5">
         <div class="container">
-            <div class="upper-bar navbar navbar-expand mr-auto px-0 px-sm-auto">
+            <div class="upper-bar navbar navbar-expand mr-auto px-0 px-sm-3">
                 <div class="links mx-auto mx-md-0">
                     <ul class="navbar-nav text-uppercase">
                         <li class="nav-item "><a class="nav-link pl-0" href="#">Home</a></li>
@@ -30,7 +30,7 @@
                         <li class="nav-item ml-0 ml-sm-2 ml-md-3 dropdown align-self-center">
                             <a class="new-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="ml-0 mr-1 ml-md-3 ml-md-2" src="images/eng.png" alt="english-language"> Eng
+                                <img class="ml-0 mr-1 ml-md-3 mr-md-2" src="images/eng.png" alt="english-language"> Eng
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="#">
@@ -74,10 +74,14 @@
 
                 </div> <!--  .social -->
             </div>
+
             <!-- Start of the navbar  -->
-            <nav class="navbar navbar-expand-lg main-navbar navbar-light">
-                <a class="navbar-brand mr-auto" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
+            <nav class="navbar navbar-expand-lg py-0 py-lg-3 main-navbar navbar-light flex-row-reverse flex-lg-row">
+                    <p class="nav-item d-inline-block d-lg-none mt-2">
+                            <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                    </p>
+                <a class="navbar-brand mx-auto mr-md-auto" href="#">ISU</a>
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -110,15 +114,17 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item d-none d-lg-inline-block">
                             <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
+                    <form class="form-inline my-2 my-lg-0 d-none d-lg-inline-block">
 
                         <button class="ml-4 btn my-2 my-sm-0" type="submit">Get Started</button>
                     </form>
+                   
                 </div>
+               
             </nav>
             <!-- End of the Navbar  -->
             <div class="home mt-3">
