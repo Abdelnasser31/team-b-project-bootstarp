@@ -1,5 +1,5 @@
 .header{
-    min-height: 900px;
+    min-height: 800px;
     background: url('../images/img1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,6 +31,9 @@
         z-index: 2 !important;
         top: 0;
         left: 0;
+    }
+    .header .home {
+        max-width: 65%;
     }
 }
 /* Start styling the upperbar  */
@@ -82,17 +85,22 @@
     color:#FE9A04;
     font-size: 0.9em
 }
-.header .home{
-    max-width: 50%;
+.home {
+    max-width: 51%;
 }
 .home .h1{
     font-size: 3.4em;
-    font-weight: bolder;
 }
-.header .home p{
-    color: #7d7d7d
+.header .home p.gray{
+    color: #7d7d7d;
+    font-family: "touche-regular";
 }
 
+@media only screen and (max-width: 751px){
+    .header .home{
+        max-width: 100%;
+    }
+}
 
 /* End styling the upperbar  */
 
